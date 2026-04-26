@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-04-26T02:22:40.971116",
+  "docs_dir": "data\\benchmarks\\docs",
+  "labels_dir": "data\\benchmarks\\labels",
+  "summary": {
+    "docs_total": 3,
+    "docs_ok": 3,
+    "docs_error": 0,
+    "classification_accuracy": 1.0,
+    "field_accuracy": null,
+    "class_hits": 3,
+    "class_total": 3,
+    "field_hits": 0,
+    "field_total": 0
+  },
+  "results": [
+    {
+      "label_file": "example.invoice.json",
+      "file": "sample-01.pdf",
+      "status": "ok",
+      "score": {
+        "classification": {
+          "expected": "invoice",
+          "predicted": "invoice",
+          "match": 1
+        },
+        "fields": {
+          "total": 0,
+          "matched": 0,
+          "accuracy": null,
+          "details": []
+        }
+      }
+    },
+    {
+      "label_file": "sample-02.json",
+      "file": "sample-02.pdf",
+      "status": "ok",
+      "score": {
+        "classification": {
+          "expected": "invoice",
+          "predicted": "invoice",
+          "match": 1
+        },
+        "fields": {
+          "total": 0,
+          "matched": 0,
+          "accuracy": null,
+          "details": []
+        }
+      }
+    },
+    {
+      "label_file": "sample-03.json",
+      "file": "sample-03.png",
+      "status": "ok",
+      "score": {
+        "classification": {
+          "expected": "invoice",
+          "predicted": "invoice",
+          "match": 1
+        },
+        "fields": {
+          "total": 0,
+          "matched": 0,
+          "accuracy": null,
+          "details": []
+        }
+      }
+    }
+  ]
+}

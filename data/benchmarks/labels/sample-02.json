@@ -1,0 +1,7 @@
+{
+  "file": "sample-02.pdf",
+  "expected": {
+    "classification": "invoice",
+    "fields": {}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "file": "sample-03.png",
+  "expected": {
+    "classification": "invoice",
+    "fields": {}
+  }
+}
